@@ -1,0 +1,116 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid #FF0000;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+body {
+    margin: 0px;
+}
+
+.top-container{
+    height: 35%;
+    border: 3px solid #008000;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.middle-container{
+    height: 26%;
+    border: 3px solid #008000;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+.bottom-container{
+    height: 35%;
+    border: 3px solid #008000;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-image{
+    height: 100%;
+    width: 25%;
+    border: 2px solid #0000FF;
+    box-sizing: border-box;
+}
+.banner-image{
+    height: 100%;
+    width: 75%;
+    border: 2px solid #FFBF00;
+    box-sizing: border-box;
+}
+
+.heading{
+    height: 40%;
+    border: 2px solid #b03a2e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+}
+.heading-content{
+    height: 60%;
+    border: 2px solid #b03a2e;
+    box-sizing: border-box;
+}
+
+.head-img{
+    height: 100%;
+    width: 15%;
+    border: 2px solid #b03a2e;
+    box-sizing: border-box;
+}
+.sub-head{
+    height: 100%;
+    width: 75%;
+    border: 2px solid #b03a2e;
+    box-sizing: border-box;
+}
+.date{
+    height: 100%;
+    width: 10%;
+    border: 2px solid #800080;
+    box-sizing: border-box;
+}
+
+.space-even{
+    height: 100%;
+    width: 30%;
+    border: 2px solid #0e6655 ;
+    box-sizing: border-box;
+}
+
+.bottom-img{
+    height: 60%;
+    border: 3px solid #f4d03f ;
+    box-sizing: border-box;
+}
+.bottom-heading{
+    height: 20%;
+    border: 3px solid #00FF00;
+    box-sizing: border-box;
+}
+.bottom-sub-heading{
+    height: 20%;
+    border: 3px solid #FF7F50;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 480px){
+    .bottom-container {
+        display: block;
+        overflow: auto;
+        padding: 15px;
+    }
+
+    .space-even{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+  }
